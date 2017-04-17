@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APP答题系统</string>
+    <string name="back">返回</string>
+    <string name="SystemSetting">系统设置</string>
+    <string name="SystemSetting_1">考题数量(题/次)</string>
+    <string name="SystemSetting_2">题目显示时间(秒)</string>
+    <string name="SystemSetting_3">题目答题限时(秒/个)</string>
+    <string name="SystemSetting_4">密码</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="recomm_prefecture_video_erro">视频播放错误，请重试!</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <string name="choose_file">Select a file</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="internal_storage">Internal storage</string>
+    <!-- 每次抽取几个题目 -->
+    <string name="once_questions">3</string>
+    <!-- 题目显示几秒钟后消失 -->
+    <string name="title_show_seconds">10</string>
+    <!-- 每个题目答题限时几秒钟 -->
+    <string name="question_show_seconds">40</string>
+    <!-- 历史答题记录显示最新的前几条 -->
+    <string name="news_history_records">10</string>
+    <!-- 系统配置的口令权限 -->
+    <string name="password">123456</string>
+</resources>

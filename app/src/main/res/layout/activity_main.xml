@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include android:id="@+id/header"  layout="@layout/header" />
+
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_randtest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="随机抽题"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:padding="10dip"
+                android:background="@drawable/darkblue_btn_bg"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_history_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="答题记录"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:padding="10dip"
+                android:background="@drawable/darkblue_btn_bg"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
